@@ -1221,6 +1221,65 @@
   .container{
     max-width: 355px;
   }
+  .choise__wrapper-1{
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-1:hover{
+    background-size: 100%;
+   }
+   .choise__wrapper-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-2-3.jpg);
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-2:hover{
+    background-size: 100%;
+   }
+   .choise__wrapper-3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-3-3.jpg);
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-3:hover{
+    background-size: 100%;
+   }
+   .choise__wrapper-4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-4-3.jpg);
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-4:hover{
+    background-size: 100%;
+   }
+   .choise__wrapper-5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-5-3.jpg);
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-5:hover{
+    background-size: 100%;
+   }
+   .choise__wrapper-6{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-6-3.jpg);
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    background-size: 100%;
+   }
+   .choise__wrapper-6:hover{
+    background-size: 100%;
+   }
   .form__input {
     width: 310px;
   }
@@ -1296,65 +1355,6 @@
     left: 6px;
 
   }
-  .choise__wrapper-1{
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-1:hover{
-    background-size: 100%;
-   }
-   .choise__wrapper-2{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-2-3.jpg);
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-2:hover{
-    background-size: 100%;
-   }
-   .choise__wrapper-3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-3-3.jpg);
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-3:hover{
-    background-size: 100%;
-   }
-   .choise__wrapper-4{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-4-3.jpg);
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-4:hover{
-    background-size: 100%;
-   }
-   .choise__wrapper-5{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-5-3.jpg);
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-5:hover{
-    background-size: 100%;
-   }
-   .choise__wrapper-6{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)), url(../img/card-6-3.jpg);
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    background-size: 100%;
-   }
-   .choise__wrapper-6:hover{
-    background-size: 100%;
-   }
   .history__item-1{
     width: 318px;
     height: 455px;
