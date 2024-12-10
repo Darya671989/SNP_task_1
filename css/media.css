@@ -1216,11 +1216,12 @@
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 470px){
 
   .container{
     max-width: 355px;
   }
+  
   .choise__wrapper-1{
     width: 318px;
     height: 318px;
