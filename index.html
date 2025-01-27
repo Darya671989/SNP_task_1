@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="YourTour Путешествия, горы, Велопрогулки,тур,купить тур,Выбери свой тур">
+  <meta name="description"
+    content="YourTour Путешествия, Велопрогулки,Сплавы,горы, Идеальные путешествия существуют, Выбери свой тур">
+  <title>YourTour</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="icon" href="./img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script defer src="./main.js"></script>
+  <script type="text/javascript">
+    function LoginCheck(input) {
+        var value = input.value;
+        input.value=input.value.toLowerCase();
+        var re = /а|б|в|г|д|е|ё|ж|з|и|ё|к|л|м|н|о|п|р|с|т|у|ф|х|ц|ч|ш|щ|ъ|ы|ь|э|ю|я/gi;
+        if (re.test(value)) {
+            value = value.replace(re, '');
+            input.value = value;
+        }
+    }
+    </script>  
+</head>
+<body>
+  <div class="header-scroll">
+    <div  class="header-top container ">
+      <div class="header__logo ">
+        <a href="#">
+          <svg width="182" height="32" viewBox="0 0 182 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.476 0.879883L13.902 14.0679L20.412 0.879883H27.93L17.304 20.5359V30.6999H10.458V20.4519L0 0.879883H7.476Z" fill="black"/>
+            <path d="M36.8041 31.1199C34.2841 31.1199 32.1421 30.5879 30.3781 29.5239C28.6421 28.4599 27.3121 27.0599 26.3881 25.3239C25.4641 23.5879 25.0021 21.7119 25.0021 19.6959C25.0021 17.6519 25.4641 15.7619 26.3881 14.0259C27.3121 12.2899 28.6561 10.8899 30.4201 9.82588C32.1841 8.76188 34.3121 8.22988 36.8041 8.22988C39.2961 8.22988 41.4241 8.76188 43.1881 9.82588C44.9521 10.8899 46.2961 12.2899 47.2201 14.0259C48.1441 15.7619 48.6061 17.6519 48.6061 19.6959C48.6061 21.7119 48.1441 23.5879 47.2201 25.3239C46.2961 27.0599 44.9521 28.4599 43.1881 29.5239C41.4241 30.5879 39.2961 31.1199 36.8041 31.1199ZM31.8901 19.6959C31.8901 21.4039 32.3521 22.7899 33.2761 23.8539C34.2281 24.9179 35.4041 25.4499 36.8041 25.4499C38.1761 25.4499 39.3241 24.9179 40.2481 23.8539C41.2001 22.7899 41.6761 21.4039 41.6761 19.6959C41.6761 17.9879 41.2001 16.6019 40.2481 15.5379C39.3241 14.4739 38.1761 13.9419 36.8041 13.9419C35.4041 13.9419 34.2281 14.4739 33.2761 15.5379C32.3521 16.6019 31.8901 17.9879 31.8901 19.6959Z" fill="black"/>
+            <path d="M51.7289 22.7619V8.64988H58.4489V21.2919C58.4489 24.0639 59.4709 25.4499 61.5149 25.4499C62.4109 25.4499 63.2789 25.2119 64.1189 24.7359C64.9589 24.2319 65.7009 23.4059 66.3449 22.2579V8.64988H73.0649V23.2239C73.0649 23.8959 73.1629 24.3719 73.3589 24.6519C73.5829 24.9319 73.9609 25.0859 74.4929 25.1139V30.6999C73.8489 30.8119 73.3029 30.8959 72.8549 30.9519C72.4069 31.0079 72.0009 31.0359 71.6369 31.0359C69.2289 31.0359 67.8569 30.0979 67.5209 28.2219L67.3949 26.8779C66.3869 28.3339 65.1269 29.4119 63.6149 30.1119C62.1309 30.7839 60.4649 31.1199 58.6169 31.1199C56.3769 31.1199 54.6689 30.4059 53.4929 28.9779C52.3169 27.5499 51.7289 25.4779 51.7289 22.7619Z" fill="black"/>
+            <path d="M92.2569 14.4039C90.6329 14.4319 89.1629 14.6979 87.8469 15.2019C86.5309 15.7059 85.5789 16.4619 84.9909 17.4699V30.6999H78.2709V8.64988H84.4449V13.1019C85.2009 11.6179 86.1809 10.4559 87.3849 9.61588C88.5889 8.77588 89.8489 8.34188 91.1649 8.31388C91.7249 8.31388 92.0889 8.32788 92.2569 8.35588V14.4039Z" fill="black"/>
+            <path d="M116.92 6.92788H107.848V30.6999H100.96V6.92788H91.8458V0.879883H116.92V6.92788Z" fill="black"/>
+            <path d="M126.382 31.1199C123.862 31.1199 121.72 30.5879 119.956 29.5239C118.22 28.4599 116.89 27.0599 115.966 25.3239C115.042 23.5879 114.58 21.7119 114.58 19.6959C114.58 17.6519 115.042 15.7619 115.966 14.0259C116.89 12.2899 118.234 10.8899 119.998 9.82588C121.762 8.76188 123.89 8.22988 126.382 8.22988C128.874 8.22988 131.002 8.76188 132.766 9.82588C134.53 10.8899 135.874 12.2899 136.798 14.0259C137.722 15.7619 138.184 17.6519 138.184 19.6959C138.184 21.7119 137.722 23.5879 136.798 25.3239C135.874 27.0599 134.53 28.4599 132.766 29.5239C131.002 30.5879 128.874 31.1199 126.382 31.1199ZM121.468 19.6959C121.468 21.4039 121.93 22.7899 122.854 23.8539C123.806 24.9179 124.982 25.4499 126.382 25.4499C127.754 25.4499 128.902 24.9179 129.826 23.8539C130.778 22.7899 131.254 21.4039 131.254 19.6959C131.254 17.9879 130.778 16.6019 129.826 15.5379C128.902 14.4739 127.754 13.9419 126.382 13.9419C124.982 13.9419 123.806 14.4739 122.854 15.5379C121.93 16.6019 121.468 17.9879 121.468 19.6959Z" fill="black"/>
+            <path d="M141.307 22.7619V8.64988H148.027V21.2919C148.027 24.0639 149.049 25.4499 151.093 25.4499C151.989 25.4499 152.857 25.2119 153.697 24.7359C154.537 24.2319 155.279 23.4059 155.923 22.2579V8.64988H162.643V23.2239C162.643 23.8959 162.741 24.3719 162.937 24.6519C163.161 24.9319 163.539 25.0859 164.071 25.1139V30.6999C163.427 30.8119 162.881 30.8959 162.433 30.9519C161.985 31.0079 161.579 31.0359 161.215 31.0359C158.807 31.0359 157.435 30.0979 157.099 28.2219L156.973 26.8779C155.965 28.3339 154.705 29.4119 153.193 30.1119C151.709 30.7839 150.043 31.1199 148.195 31.1199C145.955 31.1199 144.247 30.4059 143.071 28.9779C141.895 27.5499 141.307 25.4779 141.307 22.7619Z" fill="black"/>
+            <path d="M181.835 14.4039C180.211 14.4319 178.741 14.6979 177.425 15.2019C176.109 15.7059 175.157 16.4619 174.569 17.4699V30.6999H167.849V8.64988H174.023V13.1019C174.779 11.6179 175.759 10.4559 176.963 9.61588C178.167 8.77588 179.427 8.34188 180.743 8.31388C181.303 8.31388 181.667 8.32788 181.835 8.35588V14.4039Z" fill="black"/>
+            </svg>
+        </a>
+      </div>
+      <nav class="nav header__nav ">
+        <div class="navigation__list">
+          <ul class=" nav__list__scroll list-reset">
+            <li class="nav__item ">
+              <a href="#choice" class="nav__link_scroll">
+                Туры
+              </a>
+            </li>
+            <li class="nav__item ">
+              <a href="#collect" class="nav__link_scroll">
+                Создать тур
+              </a>
+            </li>
+            <li class="nav__item ">
+              <a href="#reviews" class="nav__link_scroll">
+                Отзывы
+              </a>
+            </li>
+            <li class="nav__item ">
+              <a href="#history" class="nav__link_scroll">
+                Истории
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="nav__item__tel-scroll ">
+        <a href="tel:+79999999999" class="contacts-item-linc">
+          +7 999 999 99 99
+        </a>
+      </div>
+    </div>
+  </div>
+  <header class="header ">
+    <div class=" container">
+      <div  class="header-top ">
+        <div class="header__logo ">
+          <a href="#">
+            <svg width="182" height="32" viewBox="0 0 182 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.476 0.879883L13.902 14.0679L20.412 0.879883H27.93L17.304 20.5359V30.6999H10.458V20.4519L0 0.879883H7.476Z" fill="white"/>
+              <path d="M36.8041 31.1199C34.2841 31.1199 32.1421 30.5879 30.3781 29.5239C28.6421 28.4599 27.3121 27.0599 26.3881 25.3239C25.4641 23.5879 25.0021 21.7119 25.0021 19.6959C25.0021 17.6519 25.4641 15.7619 26.3881 14.0259C27.3121 12.2899 28.6561 10.8899 30.4201 9.82588C32.1841 8.76188 34.3121 8.22988 36.8041 8.22988C39.2961 8.22988 41.4241 8.76188 43.1881 9.82588C44.9521 10.8899 46.2961 12.2899 47.2201 14.0259C48.1441 15.7619 48.6061 17.6519 48.6061 19.6959C48.6061 21.7119 48.1441 23.5879 47.2201 25.3239C46.2961 27.0599 44.9521 28.4599 43.1881 29.5239C41.4241 30.5879 39.2961 31.1199 36.8041 31.1199ZM31.8901 19.6959C31.8901 21.4039 32.3521 22.7899 33.2761 23.8539C34.2281 24.9179 35.4041 25.4499 36.8041 25.4499C38.1761 25.4499 39.3241 24.9179 40.2481 23.8539C41.2001 22.7899 41.6761 21.4039 41.6761 19.6959C41.6761 17.9879 41.2001 16.6019 40.2481 15.5379C39.3241 14.4739 38.1761 13.9419 36.8041 13.9419C35.4041 13.9419 34.2281 14.4739 33.2761 15.5379C32.3521 16.6019 31.8901 17.9879 31.8901 19.6959Z" fill="white"/>
+              <path d="M51.7289 22.7619V8.64988H58.4489V21.2919C58.4489 24.0639 59.4709 25.4499 61.5149 25.4499C62.4109 25.4499 63.2789 25.2119 64.1189 24.7359C64.9589 24.2319 65.7009 23.4059 66.3449 22.2579V8.64988H73.0649V23.2239C73.0649 23.8959 73.1629 24.3719 73.3589 24.6519C73.5829 24.9319 73.9609 25.0859 74.4929 25.1139V30.6999C73.8489 30.8119 73.3029 30.8959 72.8549 30.9519C72.4069 31.0079 72.0009 31.0359 71.6369 31.0359C69.2289 31.0359 67.8569 30.0979 67.5209 28.2219L67.3949 26.8779C66.3869 28.3339 65.1269 29.4119 63.6149 30.1119C62.1309 30.7839 60.4649 31.1199 58.6169 31.1199C56.3769 31.1199 54.6689 30.4059 53.4929 28.9779C52.3169 27.5499 51.7289 25.4779 51.7289 22.7619Z" fill="white"/>
+              <path d="M92.2569 14.4039C90.6329 14.4319 89.1629 14.6979 87.8469 15.2019C86.5309 15.7059 85.5789 16.4619 84.9909 17.4699V30.6999H78.2709V8.64988H84.4449V13.1019C85.2009 11.6179 86.1809 10.4559 87.3849 9.61588C88.5889 8.77588 89.8489 8.34188 91.1649 8.31388C91.7249 8.31388 92.0889 8.32788 92.2569 8.35588V14.4039Z" fill="white"/>
+              <path d="M116.92 6.92788H107.848V30.6999H100.96V6.92788H91.8458V0.879883H116.92V6.92788Z" fill="white"/>
+              <path d="M126.382 31.1199C123.862 31.1199 121.72 30.5879 119.956 29.5239C118.22 28.4599 116.89 27.0599 115.966 25.3239C115.042 23.5879 114.58 21.7119 114.58 19.6959C114.58 17.6519 115.042 15.7619 115.966 14.0259C116.89 12.2899 118.234 10.8899 119.998 9.82588C121.762 8.76188 123.89 8.22988 126.382 8.22988C128.874 8.22988 131.002 8.76188 132.766 9.82588C134.53 10.8899 135.874 12.2899 136.798 14.0259C137.722 15.7619 138.184 17.6519 138.184 19.6959C138.184 21.7119 137.722 23.5879 136.798 25.3239C135.874 27.0599 134.53 28.4599 132.766 29.5239C131.002 30.5879 128.874 31.1199 126.382 31.1199ZM121.468 19.6959C121.468 21.4039 121.93 22.7899 122.854 23.8539C123.806 24.9179 124.982 25.4499 126.382 25.4499C127.754 25.4499 128.902 24.9179 129.826 23.8539C130.778 22.7899 131.254 21.4039 131.254 19.6959C131.254 17.9879 130.778 16.6019 129.826 15.5379C128.902 14.4739 127.754 13.9419 126.382 13.9419C124.982 13.9419 123.806 14.4739 122.854 15.5379C121.93 16.6019 121.468 17.9879 121.468 19.6959Z" fill="white"/>
+              <path d="M141.307 22.7619V8.64988H148.027V21.2919C148.027 24.0639 149.049 25.4499 151.093 25.4499C151.989 25.4499 152.857 25.2119 153.697 24.7359C154.537 24.2319 155.279 23.4059 155.923 22.2579V8.64988H162.643V23.2239C162.643 23.8959 162.741 24.3719 162.937 24.6519C163.161 24.9319 163.539 25.0859 164.071 25.1139V30.6999C163.427 30.8119 162.881 30.8959 162.433 30.9519C161.985 31.0079 161.579 31.0359 161.215 31.0359C158.807 31.0359 157.435 30.0979 157.099 28.2219L156.973 26.8779C155.965 28.3339 154.705 29.4119 153.193 30.1119C151.709 30.7839 150.043 31.1199 148.195 31.1199C145.955 31.1199 144.247 30.4059 143.071 28.9779C141.895 27.5499 141.307 25.4779 141.307 22.7619Z" fill="white"/>
+              <path d="M181.835 14.4039C180.211 14.4319 178.741 14.6979 177.425 15.2019C176.109 15.7059 175.157 16.4619 174.569 17.4699V30.6999H167.849V8.64988H174.023V13.1019C174.779 11.6179 175.759 10.4559 176.963 9.61588C178.167 8.77588 179.427 8.34188 180.743 8.31388C181.303 8.31388 181.667 8.32788 181.835 8.35588V14.4039Z" fill="white"/>
+              </svg>
+          </a>
+          </div>
+        <nav class="nav header__nav ">
+          <div class="navigation__list">
+            <ul class=" nav__list list-reset">
+              <li class="nav__item ">
+                <a href="#choice" class="navigation__link">
+                  Туры
+                </a>
+              </li>
+              <li class="nav__item ">
+                <a href="#collect" class="navigation__link">
+                  Создать тур
+                </a>
+              </li>
+              <li class="nav__item ">
+                <a href="#reviews" class="navigation__link">
+                  Отзывы
+                </a>
+              </li>
+              <li class="nav__item ">
+                <a href="#history" class="navigation__link">
+                  Истории
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="nav__item__tel ">
+          <a href="tel:+79999999999" class="contacts-item-linc">
+            +7 999 999 99 99
+          </a>
+        </div>
+      </div>
+      </div>
+    </header>
+    <section class="main">
+        <div class="main__info ">
+          <div class="main__contain">
+        <h1 class="main__title">
+          Идеальные путешествия существуют
+        </h1>
+        <p class="main__descr">
+          Идейные соображения высшего порядка, а также рамки и место обучения кадров
+        </p>
+      <div class="hero__wrapper">
+        <button class="btn-reset btn main__btn">
+          Найти тур
+        </button>
+      </div>
+      </div>
+    </div>
+    </section>
+  <section id="choice" class="choice">
+    <div class="container">
+      <div class="container-top">
+      <h2 class="section-title ">
+        Выбери свой тур
+      </h2>
+      <div class="choice__navigation">
+        <ul class="choise__nav list-reset flex">
+          <li class="choise__nav__item">
+            <a  class="choise__nav__link-popular">
+              Популярные
+            </a>
+          </li>
+          <li class="choise__nav__item">
+            <a  class="choise__nav__link">
+              Авторские
+            </a>
+          </li>
+          <li class="choise__nav__item">
+            <a class="choise__nav__link">
+              Походы
+            </a>
+          </li>
+          <li class="choise__nav__item">
+            <a  class="choise__nav__link">
+              Сплавы
+            </a>
+          </li>
+          <li class="choise__nav__item">
+            <a  class="choise__nav__link">
+              Велопрогулки
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="choice__img">
+        <ul class="choice-list list-reset">
+          <li class="choice__item ">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-1.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+              <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+          <li class="choice__item ">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-2.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+              <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26"  fill="white" >
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+          <li class="choice__item ">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-3.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+              <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26"  fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+          <li class="choice__item">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-4.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+              <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26"   fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+          <li class=" choice__item">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-5.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+                <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26"  fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+          <li class="choice__item">
+            <div class="image-container">
+            <img class="choice-img" src="../SNP_task_1/img/card-6.jpg">
+            <div class="info-container">
+              <div class="choice__item-top">
+                <h3 class="choise__name">
+                  Путешествие в горы
+                </h3>
+                <p class="choise__prize">
+                  от 80 000 руб
+                </p>
+                </div>
+              <button class="choise__info">
+                <span class="choise-btn">
+                  Подробнее
+                  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="collect" class="collect">
+    <div class="container">
+      <div class="title__container title__container-collect">
+      <h2 class="section-title">
+        Собери свой тур
+      </h2>
+      <p class="section-descr">
+        Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
+      </p>
+      </div>
+      <div class="form ">
+        <form  action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
+        <div class="form__top ">   
+          <div  class="form__item">
+         <label class="form__name">Имя</label>
+         <div class="form__list__item">
+              <input class="form__input " type="text" name="Name" placeholder="Введите Ваше имя" required>
+            </div>
+            </div>
+            <div  class="form__item">
+              <label class="form__name">Направление</label> 
+              <div class="form__list__item">
+            <select class=" n  form__select" onchange="className=selectedIndex?'y':'n' " name="Куда хотите ехать" required>
+              <option class=" y"  value = "reset" disabled selected >
+                Куда хотите ехать
+             </option>
+              <option class=" n"  value ="Велопрогулки" >
+             Велопрогулки
+          </option>
+          <option class=" n"  value ="Горы" >
+            Горы
+        </option>
+        <option class=" n"  value ="Сплавы" >
+          Сплавы
+      </option>
+            </select>
+            </div>
+            </div>
+            <div  class="form__item">
+         <label class="form__name">Email</label>
+         <div class="form__list__item">
+              <input class="form__input " type="email"  name="Email" placeholder="example@mail.com" pattern=" ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+              onkeyup="return LoginCheck(this);" required>
+              </div>
+              </div>
+              <div  class="form__item">
+        <label class="form__name">Телефон</label>
+        <div class="form__list__item">
+            <input  maxlength="18"  class="form__input form__input__tel " type="number" name="tel" pattern="^[0-9-+\s()]*$"    onkeypress="if(this.value.length === 11) return false"
+            required  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _ "   >
+            </div>
+            </div>
+            <div  class="form__item">
+        <label class="form__name">Дата от</label>
+        <div class="form__list__item">
+              <input class="form__input"  type="text" onfocus="(this.type='date')" name="Date"  placeholder="ДД.ММ.ГГГГ" min="2024-11-27" max="2025-12-31" required>
+       </div>
+       </div>
+       <div  class="form__item">
+              <label class="form__name">Дата до</label>
+              <div class="form__list__item">
+            <input class="form__input"  type="text" onfocus="(this.type='date')" name="Date" placeholder="ДД.ММ.ГГГГ" min="2024-09-18" max="2025-12-31"  required>
+                </div>
+                </div>
+        </div>
+        <div class="form__buttom">
+          <div class="form__item__comment ">
+            <p class="form__name">Комментарий</p>
+            <textarea class="form__input__text" name="story" required></textarea>
+          </div>
+          <div class="radio__wrapper">
+            <legend class="radio__name">Вам есть 18 лет?</legend>
+              <div class="form__radio">
+                <div class="form__check__input">
+                  <input type="radio"  class="radio" id="contactChoice2" name="contact" value="Да" required/>
+                  <label class="radio__qv " for="contactChoice2" required><a>Да</a></label>
+                </div>
+                <div class="form__check__input">
+                  <input type="radio" class="radio" id="contactChoice3" name="contact" value="нет" />
+                  <label class="radio__qv" for="contactChoice3" required><a>Нет</a></label>
+              </div>
+            </div>
+          </div>
+          <div class="check">
+            <label class="form__check ">
+              <input type="checkbox" class="checkbox" required>
+              </label>
+              <p class="check__info form__check ">
+                Нажимая кнопку, я принимаю условия 
+                <span class="cheket">Лицензионного договора </span>
+              </p>
+          </div>
+          <div class="btn-form">
+            <button type="submit"  class="btn btn-reset btn__submit">Найти тур</button>
+            <button type="reset" class="btn btn-reset btn__off">Сбросить</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="title__container">
+      <h2 class="section-title">
+        Отзывы наших<br>путешественников
+      </h2>
+      <p class=" section-descr">
+        Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
+      </p>
+      </div>
+      <div class="clients">
+        <ul class=" clients__list list-reset">
+          <li class="clients__item ">
+            <div class="user__container">
+              <p class="clients__item__descr">
+                Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает
+                широкому кругу (специалистов) участие в формировании новых предложений. Идейные
+                соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                позволяет оценить значение модели развития.
+              </p>
+              <div class="clients__info">
+              <div class="user__name">
+                <span class="clients__name ">
+                  Мария
+                </span>
+                <span class="clients__post">
+                  Тур: Вдали от дома
+                </span>
+              </div>
+              <div class="clients-avatar">
+                <img src="./img/review-1.jpg" alt="Мария">
+              </div>
+              </div>
+              </div>
+          </li>
+          <li class="clients__item ">
+            <div class="user__container">
+            <p class="clients__item__descr">
+              Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в
+              формировании системы обучения кадров, соответствует насущным потребностям.
+              <br>
+              <br>
+              Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм
+              деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых
+              предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в
+              значительной степени обуславливает создание модели развития.
+            </p>
+            <div class="clients__info">
+            <div class="user__name">
+              <span class="clients__name ">
+                Павел
+              </span>
+              <span class="clients__post">
+                Тур: Путешествие в горы
+              </span>
+            </div>
+            <div class="clients-avatar">
+              <img src="./img/review-2.jpg" alt="Павел">
+            </div>
+            </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="photo">
+    <div class="photo__container">
+      <div class="title__container">
+      <h2 class="section-title photo__title">
+        Фотографии путешествий
+      </h2>
+      <p class="photo__descr section-descr">
+        Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
+      </p>
+      </div>
+      <div class="big">
+        <ul class="big__list list-reset">
+          <li class="big__item">
+            <img src="./img/travel1.jpg" alt="Самолет">
+          </li>
+          <li class="big__item travel-photo-2">
+            <img src="./img/travel2.jpg" alt="Палатка">
+          </li>
+          <li class="big__item travel-photo-3">
+            <img src="./img/travel3.jpg" alt="горы">
+          </li>
+          <li class="big__item">
+            <img src="./img/travel4.jpg" alt="Дорога">
+          </li>
+        </ul>
+      </div>
+      <div class="small">
+        <ul class="small__list list-reset">
+          <li class="small__item ">
+            <img src="./img/travel5.jpg" alt="Море">
+          </li>
+          <li class="small__item travel-photo-6 ">
+            <img src="./img/travel6.jpg " alt="Карта">
+          </li>
+          <li class="small__item travel-photo-7">
+            <img src="./img/travel7.jpg" alt="Мост в лесу">
+          </li>
+          <li class="small__item item-8">
+            <img src="./img/travel8.png" alt="Палатка на машине">
+          </li>
+          <li class="small__item travel-photo-13">
+            <img src="./img/travel13.jpg" alt="Узкая старинная улица">
+          </li>
+        </ul>
+      </div>
+      <div class="big">
+        <ul class="big__list list-reset">
+          <li class="big__item">
+            <img src="./img/travel9.jpg" alt="Улица города с белыми домами">
+          </li>
+          <li class="big__item">
+            <img src="./img/travel10.jpg" alt="Улица города с белыми домами">
+          </li>
+          <li class="big__item travel-photo-11">
+            <img src="./img/travel11.jpg" alt="горы горная река с деревянным мостом">
+          </li>
+          <li class="big__item travel-photo-12">
+            <img src="./img/travel12.jpg" alt="Улица города с магазинами">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="history" id="history">
+    <div class="container">
+      <div class="title__container">
+      <h2 class="section-title">
+        Истории путешествий
+      </h2>
+      <p class="section-descr">
+        Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
+      </p>
+      </div>
+      <ul class="history__list list-reset">
+        <li class="history__item">
+          <div class="img__container">
+            <img  class="history-img" src="..//SNP_task_1/img/story-1.jpg">
+            <div class="history__top ">
+              <h3 class="history__item__title">
+                Автостопом в Стамбул
+              </h3>
+              <p class="history__text">
+                Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает
+                широкому кругу (специалистов) участие в формировании новых предложений:
+              </p>
+              <ul class="stambul__list">
+                <li class="stambul__item">
+                  вкусная еда
+                </li>
+                <li class="stambul__item">
+                  дешевый транспорт
+                </li>
+                <li class="stambul__item">
+                  красивый город
+                </li>
+              </ul>
+            </div>
+            <div class="history__bottom ">
+              <div class="history-btn">
+                <button class="history__info">
+                    Подробнее
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26"  fill="white">
+                    <path
+                      d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                      fill="white"></path>
+                  </svg>
+                </button>
+                </div>
+                <div class="history__social">
+                  <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                  <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                  <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                </div>
+              </div>
+              </div>
+        </li>
+        <li class="history__item">
+          <div class="img__container">
+            <img  class="history-img" src="./img/story-2.jpg">
+            <div class="history__top ">
+              <h3 class="history__item__title">
+                Автостопом в Стамбул
+              </h3>
+              <p class="history__text">
+                Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает
+                широкому кругу (специалистов) участие в формировании новых предложений:
+              </p>
+            </div>
+            <div class="history__bottom">
+              <div class="history-btn">
+                <button class="history__info">
+                    Подробнее
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26"  fill="white">
+                    <path
+                      d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                      fill="white"></path>
+                  </svg>
+                </button>
+                </div>
+                <div class="history__social">
+                  <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                  <a href="https://www.vk.com/" target="_blank">ВКонтакте</a>
+                  </div>
+              </div>
+            </div>
+        </li>
+        <li class="history__item">
+          <div class="img__container">
+            <img  class="history-img" src="./img/story-3.jpg">
+            <div class="history__top ">
+              <h3 class="history__item__title">
+                Автостопом в Стамбул
+              </h3>
+              <p class="history__text">
+                Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает
+                широкому кругу (специалистов) участие в формировании новых предложений:
+              </p>
+            </div>
+            <div class="history__bottom">
+              <div class="history-btn">
+              <button class="history__info">
+                  Подробнее
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26"  fill="white">
+                  <path
+                    d="M22.7004 12.2833L16.1535 5.79682C15.7541 5.40106 15.1063 5.40106 14.7068 5.79682C14.3073 6.19266 14.3073 6.83433 14.7068 7.23017L19.5074 11.9865H2.02294C1.45803 11.9865 1 12.4403 1 13C1 13.5596 1.45803 14.0135 2.02294 14.0135H19.5074L14.707 18.7698C14.3075 19.1656 14.3075 19.8073 14.707 20.2032C14.9067 20.4009 15.1686 20.5 15.4304 20.5C15.6921 20.5 15.9539 20.4009 16.1537 20.2032L22.7004 13.7167C23.0999 13.3208 23.0999 12.6792 22.7004 12.2833Z"
+                    fill="white"></path>
+                </svg>
+              </button>
+              </div>
+              <div class="history__social">
+                <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                <a href="https://www.vk.com/" target="_blank">ВКонтакте</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </section>
+  <section class="lets-go">
+    <div class="container lets-go__container ">
+        <div class="lets-go__photo">
+          <img src="./img/footer.jpg" alt="горы Палатка">
+        </div>
+        <div class="lets-go__text ">
+          <h4 class="lets-go__title">
+            Пора в путешествие<br> вместе с нами!
+          </h4>
+          <span class="lets-go__descr">
+            Напиши на почту и узнай подробности<br>на <a class="cheket" href="mailto:yourtour@gmail.com "> yourtour@gmail.com </a>
+          </span>
+        </div>
+      </div>
+  </section>  
+
+  <footer class="footer">
+    <div class="  footer__bottom  ">
+      <div class="footer__back">
+      <span class="footer__bottum__item">
+        Наши социальные сети
+      </span>
+      <ul class="list-reset footer__list ">
+        <li class="footer__item  ">
+          <div class="footer__item__icon">
+            <a href="https://web.telegram.org/k/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" viewBox="0 0 22 19" fill="none">
+                <path d="M19.5569 0.00176707C19.284 0.0144624 19.0269 0.0938079 18.7984 0.182675H18.7952C18.5635 0.274716 17.4622 0.738095 15.7896 1.43951C14.117 2.1441 11.9461 3.05816 9.79107 3.96588C5.48736 5.77813 1.25665 7.56183 1.25665 7.56183L1.30743 7.54278C1.30743 7.54278 1.01544 7.638 0.710752 7.84747C0.555235 7.94903 0.383848 8.08868 0.234679 8.30767C0.0855084 8.52667 -0.0350974 8.8631 0.00933657 9.20904C0.0823348 9.7962 0.463194 10.1485 0.736143 10.3421C1.01227 10.5389 1.27569 10.6309 1.27569 10.6309H1.28204L5.24933 11.9671C5.42706 12.5384 6.45856 15.928 6.70611 16.7088C6.85211 17.1754 6.99493 17.4673 7.17267 17.6895C7.25836 17.8038 7.35992 17.899 7.48053 17.9752C7.52814 18.0037 7.57892 18.0259 7.6297 18.045C7.64557 18.0545 7.66144 18.0577 7.68048 18.0608L7.63922 18.0513C7.65191 18.0545 7.66144 18.064 7.67096 18.0672C7.7027 18.0767 7.72491 18.0799 7.76617 18.0862C8.39459 18.2767 8.89923 17.8863 8.89923 17.8863L8.92779 17.8641L11.2701 15.7313L15.1961 18.7432L15.285 18.7813C16.1038 19.1399 16.9322 18.94 17.3702 18.5877C17.8113 18.2322 17.9827 17.7784 17.9827 17.7784L18.0113 17.7054L21.0455 2.16314C21.1312 1.77911 21.1534 1.42047 21.0582 1.07135C20.9629 0.722226 20.7186 0.395322 20.4234 0.220761C20.1251 0.0430266 19.8299 -0.0109282 19.5569 0.00176707ZM19.4744 1.66803C19.4713 1.71881 19.4808 1.71246 19.4586 1.81085V1.82037L16.4529 17.2007C16.4402 17.223 16.418 17.2706 16.3577 17.3182C16.2942 17.369 16.2435 17.4007 15.98 17.296L11.178 13.6143L8.27716 16.2581L8.88653 12.367C8.88653 12.367 16.4085 5.35601 16.7322 5.0545C17.056 4.75299 16.9481 4.68951 16.9481 4.68951C16.9703 4.32135 16.4593 4.5816 16.4593 4.5816L6.56647 10.7103L6.56329 10.6944L1.82159 9.09796V9.09478C1.81842 9.09478 1.81207 9.09161 1.8089 9.09161C1.81207 9.09161 1.83429 9.08209 1.83429 9.08209L1.85968 9.06939L1.88507 9.05987C1.88507 9.05987 6.11896 7.27618 10.4227 5.46392C12.5777 4.55621 14.7486 3.64215 16.418 2.93756C18.0875 2.23614 19.3221 1.72198 19.3919 1.69342C19.4586 1.66803 19.4268 1.66803 19.4744 1.66803Z" fill="#A6A6A6"/>
+                </svg>
+            </a>
+            </div>
+            <div class="social-footer">
+          <a href="https://web.telegram.org/k/" target="_blank">telegram </a>
+          </div>
+
+        </li>
+        <li class="footer__item  ">
+          <div class="footer__item__icon">
+            <a href="https://www.facebook.com/" target="_blank"> 
+            <svg class="footer__link-icon" width="26" height="26" viewBox="0 0 26 26"
+              fill="none"  xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.9881 4H14.2711C12.6587 4 10.8653 4.67811 10.8653 7.01522C10.8732 7.82956 10.8653 8.60945 10.8653 9.48717H9V12.4553H10.923V21H14.4567V12.3989H16.789L17 9.47885H14.3958C14.3958 9.47885 14.4016 8.17988 14.3958 7.80265C14.3958 6.87908 15.3568 6.93197 15.4146 6.93197C15.8719 6.93197 16.7612 6.9333 16.9894 6.93197V4H16.9881Z"
+                fill="#A6A6A6"></path>
+            </svg>
+            </a>
+          </div>
+          <div class="social-footer">
+          <a href="https://www.facebook.com/" target="_blank"> facebook</a>
+        </div>
+        </li>
+        <li class="footer__item ">
+          <div class="footer__item__icon">
+            <a href="https://www.vk.com/" target="_blank"> 
+            <svg class="footer__link-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+              fill="none">
+              <path fill-rule="evenodd"
+                d="M22.5395 7.80526C22.6802 7.33158 22.5395 7 21.883 7H19.6946C19.1318 7 18.8817 7.3 18.741 7.63158C18.741 7.63158 17.6312 10.3789 16.0524 12.1474C15.5366 12.6684 15.3177 12.8263 15.0363 12.8263C14.8957 12.8263 14.6924 12.6684 14.6924 12.1947V7.80526C14.6924 7.23684 14.5361 7 14.0672 7H10.6282C10.2843 7 10.0655 7.26842 10.0655 7.50526C10.0655 8.0421 10.8471 8.16842 10.9409 9.65263V12.9053C10.9409 13.6158 10.8158 13.7421 10.5344 13.7421C9.79975 13.7421 7.98648 10.9947 6.92353 7.83684C6.70469 7.25263 6.50148 7 5.93874 7H3.75032C3.12505 7 3 7.3 3 7.63158C3 8.21579 3.73469 11.1211 6.45459 14.9579C8.26785 17.5789 10.8158 19 13.1293 19C14.5205 19 14.6924 18.6842 14.6924 18.1474V16.1579C14.6924 15.5263 14.8175 15.4 15.2708 15.4C15.5991 15.4 16.1462 15.5579 17.4436 16.8211C18.9286 18.3211 19.1787 19 20.0072 19H22.1956C22.8209 19 23.1335 18.6842 22.9459 18.0684C22.7427 17.4526 22.0393 16.5526 21.1014 15.4789C20.5856 14.8632 19.8196 14.2158 19.6008 13.8842C19.2725 13.4579 19.3663 13.2684 19.6008 12.9053C19.6008 12.8895 22.2738 9.1 22.5395 7.80526Z"
+                fill="#A6A6A6"></path>
+            </svg>
+            </a>
+            </div>
+            <div class="social-footer">
+          <a  href="https://www.vk.com/" target="_blank"> vkontakte</a>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
